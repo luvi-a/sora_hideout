@@ -13,8 +13,27 @@ body {
 	margin: 0px;
 	font-family: "Noto Sans JP", sans-serif;
 	font-style: normal;
-	-webkit-animation: fadeIn 2.5s ease-out 0s 1 normal;
-	animation: fadeIn 2.5s ease-out 0s 1 normal;
+	-webkit-animation: fadeIn 1.5s ease-out 0s 1 normal;
+	animation: fadeIn 1.5s ease-out 0s 1 normal;
+	background-color: black;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 #root {
